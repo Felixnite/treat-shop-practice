@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 .header{
     overflow: hidden;
 }
@@ -30,6 +36,9 @@
 .nav-menu-content{
     display: none;
     position: absolute;
+    background-color: rgb(222, 205, 205);
+    border-radius: 0.5rem;
+    min-height: 20rem;
 }
 
 .nav-menu-content.active{
@@ -40,6 +49,26 @@
     cursor: pointer;
 }
 
-/* .nav-cart:hover .nav-menu-content:hover{
-    display: block;
-} */
+th{
+    padding: 0.6rem;
+    
+}
+
+.btn-vaciar{
+    border-radius: 0.5rem;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    color: black;
+    border: 1px solid black;
+} 
+
+.btn-vaciar a{
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+    font-weight: 500;
+}
+
