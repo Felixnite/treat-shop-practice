@@ -72,3 +72,27 @@ th{
     font-weight: 500;
 }
 
+.main-title{
+    text-align: center;
+    color: #8080c0;
+    text-transform: uppercase;
+    font-family: fantasy;
+    font-weight: 300;
+}
+
+.main-cards{
+    margin: 2rem;
+}
+
+.card-stars{
+    height: 350%;
+    width: 35%;
+}
+
+.card-btn{
+    border-radius: 2rem;
+    text-align: center;
+    color: azure;
+    text-transform: uppercase;
+    font-family: fantasy;
+}
