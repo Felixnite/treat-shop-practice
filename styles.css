@@ -103,9 +103,18 @@ th{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(img/woman-spending-time-together-with-her-dog.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background: black;
+    overflow: hidden;
+    background: #C33764;  /* fallback colour. Make sure this is just one solid colour. */
+    background: -webkit-linear-gradient(rgba(29, 37, 113, 0.250), rgba(195, 55, 99, 0.250));
     max-width: 100%;
     height: 15rem;
 } 
+
+.contenido-hero{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    color:rgba(0, 0, 0, 0.634);
+    
+}
