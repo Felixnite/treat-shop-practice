@@ -78,6 +78,7 @@ th{
     text-transform: uppercase;
     font-family: fantasy;
     font-weight: 300;
+    margin: 2rem;
 }
 
 .main-cards{
@@ -116,5 +117,13 @@ th{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 500;
     color:rgba(0, 0, 0, 0.634);
+    
+}
+
+.card-img-top{
+    object-fit: contain;
+    
+    height: 20rem;
+    width: 10rem;
     
 }
